@@ -62,7 +62,7 @@ function Navigation() {
 
     return (
         <>
-            <header className='py-7'>
+            <header className='py-3 bg-blueLight'>
                 <div className='container px-4 mx-auto'>
                     <div className='flex items-center justify-between'>
                         {/* Logo */}
@@ -95,7 +95,7 @@ function Navigation() {
                         <div>
                             <Link
                                 href='#'
-                                className='px-4 py-4 bg-primary text-white rounded-lg hidden lg:inline-block'>
+                                className='px-4 py-4 bg-primary text-white rounded-lg hover:bg-[#023e8a] duration-300 transition-all ease-in-out hidden lg:inline-block'>
                                 Get Started
                             </Link>
                             <button

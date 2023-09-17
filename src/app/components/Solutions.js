@@ -35,10 +35,9 @@ const solutionContent = {
         },
     },
     images: {
-        img1: '/images/solutions_imgs/solution-img-1.webp',
-        img2: '/images/solutions_imgs/solution-img-2.webp',
-        img3: '/images/solutions_imgs/solution-img-3.webp',
-        img4: '/images/solutions_imgs/solution-img-4.webp',
+        img1: '/images/solutions_imgs/solution-img-2.webp',
+        img2: '/images/solutions_imgs/solution-img-3.webp',
+        img3: '/images/solutions_imgs/solution-img-1.webp',
     },
     experience: {
         years: '13+',
