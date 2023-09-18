@@ -20,21 +20,20 @@ const testimonialContent = {
             name: 'Netflix',
             titleRole: 'Studios Marketing Director',
             testimonial:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+                'Before working with Dev Studios, we had a hard time finding a reliable company to work with. They have been great to work with and we are very happy with the results.',
         },
         {
             img: '/images/testimonials_imgs/testimonial-img-2.webp',
-            name: 'Sarah Doe',
-            titleRole: 'CEO of Company',
+            name: 'Susan Smith',
+            titleRole: 'CEO of Amazon',
             testimonial:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+                'Amazing work! They really helped us achieve our goals. The team was very professional and always available to answer our questions. We will definitely work with them again!',
         },
         {
             img: '/images/testimonials_imgs/testimonial-img-3.webp',
             name: 'John Doe',
             titleRole: 'Developer at Company',
-            testimonial:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+            testimonial: 'Great company to work with. Highly recommended!',
         },
     ],
 };

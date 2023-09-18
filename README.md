@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TEMPLATE WEBSITE STANDARD - NEXTJS + TAILWINDCSS
 
-## Getting Started
+**Author/Autor**: [Adan-Perez](https://github.com/Adan-Perez)
 
-First, run the development server:
+> EN
+
+Template for a standard website with NextJS and TailwindCSS and AOS (Animate On Scroll Library).
+
+# Installation 🚀
+
+### Install the dependencies
+
+```bash
+npm install
+```
+
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+
+Dev mode:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Legal Warning ⚠
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**This project is made 100% for educational and learning purposes. Any misuse of this application or code is the responsibility of the user.**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+> ES
 
-To learn more about Next.js, take a look at the following resources:
+Plantilla para un sitio web estándar con NextJS y TailwindCSS y AOS (Animate On Scroll Library).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Instalación 🚀
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Instalar las dependencias
 
-## Deploy on Vercel
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Iniciar la aplicación en modo de desarrollo (recarga de código en desarrollo, informes de errores, etc.)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Dev mode:
+
+```bash
+npm run dev
+```
+
+# Aviso Legal ⚠
+
+**Este proyecto está hecho 100% con fines educativos y de aprendizaje. Cualquier mal uso de esta aplicación o código es responsabilidad del usuario.**
+
+---
+
+## Docs 📚
+
+-   [NextJS](https://nextjs.org/docs)
+-   [TailwindCSS](https://tailwindcss.com/docs/installation)
+-   [AOS](https://michalsnik.github.io/aos/)
+
+---
+
+## Demo 📸
+
+ 
+
+---
+
+Developed with ❤ by [Adan-Perez](https://github.com/Adan-Perez)
+
+<p align="center" 
+    style="width: 100%; height: 100%;"
+>
+  <img src="https://storage.googleapis.com/sticker-prod/Wren242GEdiHYWm6ZGJp/5.png" alt="naruto-image">
+</p>

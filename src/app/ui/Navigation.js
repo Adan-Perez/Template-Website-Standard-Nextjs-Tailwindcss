@@ -62,7 +62,7 @@ function Navigation() {
 
     return (
         <>
-            <header className='py-3 bg-blueLight'>
+            <header className='py-3 bg-light'>
                 <div className='container px-4 mx-auto'>
                     <div className='flex items-center justify-between'>
                         {/* Logo */}
@@ -77,6 +77,7 @@ function Navigation() {
                                 />
                             </Link>
                         </div>
+
                         {/* Navigation Menu */}
                         <div className='hidden lg:block text-center'>
                             <ul className='flex space-x-7'>
@@ -91,6 +92,7 @@ function Navigation() {
                                 ))}
                             </ul>
                         </div>
+
                         {/* CTA */}
                         <div>
                             <Link
@@ -120,7 +122,7 @@ function Navigation() {
                     className='h-screen w-screen z-[999] top-0 fixed bg-black bg-opacity-50'
                     onClick={mobileMenuHandler}></div>
                 <div className='bg-white w-[380px] top-0 right-0 z-[9999] h-screen fixed'>
-                    <div className='flex items-center h-14 px-10 border-b'>
+                    <div className='flex items-center h-14 px-10 border-b bg-light'>
                         <button
                             className='flex items-center space-x-3'
                             onClick={mobileMenuHandler}>

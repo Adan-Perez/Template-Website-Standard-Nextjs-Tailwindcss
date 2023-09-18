@@ -1,8 +1,19 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 400,
+            once: true,
+            easing: 'slide',
+        });
+    });
     const heroContent = {
         text: {
             subheading: 'Welcome to Dev Studios',
@@ -24,19 +35,30 @@ const Hero = () => {
             <div className='container mx-auto px-4'>
                 <div className='lg:flex justify-between items-center'>
                     <div className='lg:w-5/12 mb-10 lg:mb-0'>
-                        <span className="inline-block py-0.5 pl-3 text-heading font-semibold relative mb-7 before:content-[''] before:absolute before:w-2/3 before:bg-blueLight before:left-0 before:top-0 before:bottom-0 before:z-[-1]">
+                        <span
+                            className="inline-block py-0.5 pl-3 text-heading font-semibold relative mb-7 before:content-[''] before:absolute before:w-2/3 before:bg-blueLight before:left-0 before:top-0 before:bottom-0 before:z-[-1]"
+                            data-aos='fade-up'>
                             {heroContent.text.subheading}
                         </span>
 
-                        <h1 className='text-4xl lg:text-5xl font-bold text-heading mb-7'>
+                        <h1
+                            className='text-4xl lg:text-5xl font-bold text-heading mb-7'
+                            data-aos='fade-up'
+                            data-aos-delay='100'>
                             {heroContent.text.heading}
                         </h1>
 
-                        <p className='leading-relaxed text-body mb-10'>
+                        <p
+                            className='leading-relaxed text-body mb-10'
+                            data-aos='fade-up'
+                            data-aos-delay='200'>
                             {heroContent.text.description}
                         </p>
 
-                        <div className='flex space-x-3'>
+                        <div
+                            className='flex space-x-3'
+                            data-aos='fade-up'
+                            data-aos-delay='300'>
                             <Link
                                 href='#_'
                                 className='py-4 px-5 bg-primary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-[#023e8a] hover:shadow-lg inline-block hover:-top-1 relative top-1'>
@@ -58,6 +80,7 @@ const Hero = () => {
                                     width={397}
                                     height={406}
                                     className='object-cover h-full w-full rounded-2xl'
+                                    data-aos='fade-in'
                                 />
                             </div>
 
@@ -70,10 +93,15 @@ const Hero = () => {
                                             height={437}
                                             alt='hero image 2'
                                             className='object-cover h-full w-full rounded-2xl'
+                                            data-aos='fade-in'
+                                            data-aos-delay='50'
                                         />
                                     </div>
 
-                                    <div className='bg-blueLight rounded-2xl rounded-tr-[200px]'></div>
+                                    <div
+                                        className='bg-blueLight rounded-2xl rounded-tr-[200px]'
+                                        data-aos='fade-in'
+                                        data-aos-delay='150'></div>
                                 </div>
 
                                 <div>
@@ -83,6 +111,8 @@ const Hero = () => {
                                         height={392}
                                         alt='hero image 3'
                                         className='object-cover h-full w-full rounded-2xl'
+                                        data-aos='fade-in'
+                                        data-aos-delay='100'
                                     />
                                 </div>
                             </div>
@@ -91,7 +121,10 @@ const Hero = () => {
                         <div className='flex space-x-2'>
                             <div className='w-5/12'>
                                 <div className='grid grid-cols-2 gap-2'>
-                                    <div className='bg-greenLight rounded-2xl rounded-bl-[200px]'></div>
+                                    <div
+                                        className='bg-greenLight rounded-2xl rounded-bl-[200px]'
+                                        data-aos='fade-in'
+                                        data-aos-delay='100'></div>
 
                                     <div>
                                         <Image
@@ -100,6 +133,8 @@ const Hero = () => {
                                             height={394}
                                             alt='hero image 4'
                                             className='object-cover h-full w-full rounded-2xl'
+                                            data-aos='fade-in'
+                                            data-aos-delay='150'
                                         />
                                     </div>
                                 </div>
@@ -114,10 +149,15 @@ const Hero = () => {
                                             height={394}
                                             alt='hero image 5'
                                             className='object-cover h-full w-full rounded-2xl'
+                                            data-aos='fade-in'
+                                            data-aos-delay='200'
                                         />
                                     </div>
 
-                                    <div className='bg-greenLight rounded-2xl rounded-br-[200px]'></div>
+                                    <div
+                                        className='bg-greenLight rounded-2xl rounded-br-[200px]'
+                                        data-aos='fade-in'
+                                        data-aos-delay='250'></div>
                                 </div>
                             </div>
                         </div>

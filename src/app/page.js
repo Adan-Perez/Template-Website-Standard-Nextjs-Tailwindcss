@@ -4,6 +4,7 @@ import Stats from './components/Stats';
 import Services from './components/Services';
 import Solutions from './components/Solutions';
 import Testimonials from './components/Testimonials';
+import RecentBlog from './components/RecentBlog';
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <Services />
             <Solutions />
             <Testimonials />
+            <RecentBlog />
         </>
     );
 }
