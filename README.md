@@ -64,7 +64,7 @@ npm run dev
 
 ## Demo 📸
 
- 
+Go to [Demo](https://adan-perez-nextjs-standard-website.vercel.app/)
 
 ---
 
