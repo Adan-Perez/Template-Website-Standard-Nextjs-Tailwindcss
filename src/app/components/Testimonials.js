@@ -1,6 +1,9 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const testimonialContent = {
     heading: {
@@ -39,6 +42,14 @@ const testimonialContent = {
 };
 
 const Testimonials = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 800,
+            once: true,
+            easing: 'slide',
+        });
+    });
+
     return (
         <section className='py-20 bg-light'>
             <div className='container px-4 mx-auto'>
@@ -75,7 +86,9 @@ const Testimonials = () => {
                                                 key={testimonial.name}
                                                 className={`bg-white p-7 rounded-lg w-full shadow-2xl ${
                                                     idx == 1 ? '' : 'mb-6'
-                                                }`}>
+                                                }`}
+                                                data-aos='zoom-in'
+                                                data-aos-delay={idx * 100}>
                                                 <div className='flex space-x-4 items-center mb-4'>
                                                     <div className='relative'>
                                                         <Image
@@ -118,11 +131,20 @@ const Testimonials = () => {
                             </div>
                             <div className='md:w-6/12'>
                                 <div>
-                                    <div className='bg-purpleLigth hidden md:inline-block w-10 h-10 lg:w-24 lg:h-24 rounded-2xl rounded-tr-[200px] mb-6 md:h-24 md:w-24'></div>
+                                    <div
+                                        className='bg-purpleLigth hidden md:inline-block w-10 h-10 lg:w-24 lg:h-24 rounded-2xl rounded-tr-[200px] mb-6 md:h-24 md:w-24'
+                                        data-aos='fade-up'
+                                        data-aos-delay='100'></div>
 
-                                    <div className='bg-greenLight hidden  md:inline-block h-3 lg:p-2 rounded-lg w-full mb-6'></div>
+                                    <div
+                                        className='bg-greenLight hidden  md:inline-block h-3 lg:p-2 rounded-lg w-full mb-6'
+                                        data-aos='fade-left'
+                                        data-aos-delay='150'></div>
 
-                                    <div className='bg-white p-7 rounded-lg w-full mb-6 shadow-2xl'>
+                                    <div
+                                        className='bg-white p-7 rounded-lg w-full mb-6 shadow-2xl'
+                                        data-aos='flip-down'
+                                        data-aos-delay='400'>
                                         <div className='flex space-x-4 items-center mb-4'>
                                             <div className='relative'>
                                                 <Image
