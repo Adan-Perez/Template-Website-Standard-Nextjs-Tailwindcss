@@ -133,7 +133,7 @@ function Navigation() {
                         </button>
                     </div>
 
-                    <div className='h-full py-3 px-10 pb-20 overflow-y-scroll scroll-smooth'>
+                    <div className='h-full py-3 px-10 pb-20 scroll-smooth'>
                         <ul className='block mb-7'>
                             {navigationMenu.map((item, idx) => (
                                 <li key={item.label}>
